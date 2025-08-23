@@ -51,3 +51,5 @@ docker-compose up --build
 
 * **Backend:** FastAPI, Python
 * **Frontend:** Next.js, React
+* **Containerization:** Docker & Docker Compose
+
