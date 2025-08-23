@@ -58,3 +58,4 @@ docker-compose up --build
 ## ✨ Contributing
 
 At this time, modifications are not allowed.
+For suggestions, issues, or collaboration, please contact the author.
