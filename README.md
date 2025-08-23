@@ -59,3 +59,6 @@ docker-compose up --build
 
 At this time, modifications are not allowed.
 For suggestions, issues, or collaboration, please contact the author.
+
+---
+
