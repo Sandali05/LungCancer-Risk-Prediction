@@ -65,3 +65,4 @@ For suggestions, issues, or collaboration, please contact the author.
 ## 📌 Contact
 
 Made with ❤️ for research and education.
+For inquiries: [your email/contact link]
