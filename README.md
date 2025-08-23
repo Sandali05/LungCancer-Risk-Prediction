@@ -50,3 +50,4 @@ docker-compose up --build
 ## 🧰 Tech Stack
 
 * **Backend:** FastAPI, Python
+* **Frontend:** Next.js, React
