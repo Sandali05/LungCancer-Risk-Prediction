@@ -49,4 +49,4 @@ docker-compose up --build
 
 ## 🧰 Tech Stack
 
-
+* **Backend:** FastAPI, Python
