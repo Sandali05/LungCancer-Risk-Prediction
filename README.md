@@ -58,4 +58,4 @@ docker-compose up --build
 ## 📌 Contact
 
 * Made with ❤️ for research and education.
-* For inquiries: [your email/contact link]
+* For inquiries: sandalikaru123@gmail.com
