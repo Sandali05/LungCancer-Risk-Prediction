@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      PI_DEPLOY: "0.002"
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    environment:
+      NEXT_PUBLIC_API_BASE: "http://backend:8000"
+      PI_DEPLOY: "0.002"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+networks:
+  default:
+    driver: bridge

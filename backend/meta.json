@@ -1,0 +1,62 @@
+{
+  "pi_train": 0.68728,
+  "feature_order": [
+    "age",
+    "pack_years",
+    "gender",
+    "asbestos_exposure",
+    "secondhand_smoke_exposure",
+    "copd_diagnosis",
+    "family_history",
+    "radon_low",
+    "radon_medium",
+    "radon_high",
+    "alcohol_none",
+    "alcohol_moderate",
+    "alcohol_heavy"
+  ],
+  "numeric_cols": [
+    "age",
+    "pack_years"
+  ],
+  "binary_cols": [
+    "gender",
+    "asbestos_exposure",
+    "secondhand_smoke_exposure",
+    "copd_diagnosis",
+    "family_history"
+  ],
+  "binary_meaning": {
+    "gender": "0=female, 1=male",
+    "asbestos_exposure": "0=no, 1=yes",
+    "secondhand_smoke_exposure": "0=no, 1=yes",
+    "copd_diagnosis": "0=no, 1=yes",
+    "family_history": "0=no, 1=yes"
+  },
+  "one_hot_cols": [
+    "radon_low",
+    "radon_medium",
+    "radon_high",
+    "alcohol_none",
+    "alcohol_moderate",
+    "alcohol_heavy"
+  ],
+  "radon_levels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "alcohol_levels": [
+    "none",
+    "moderate",
+    "heavy"
+  ],
+  "target": "lung_cancer",
+  "calibration_method": "isotonic",
+  "model_family": "XGBoost",
+  "versions": {
+    "scikit_learn": "1.5.2",
+    "xgboost": "2.1.4"
+  },
+  "csv_path_used": "/workspace/lung-cancer-test/backend/lung_cancer_dataset.csv"
+}

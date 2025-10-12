@@ -1,0 +1,11 @@
+# virtualenvs anywhere
+**/.venv/
+**/venv/
+
+# node/next
+**/node_modules/
+**/.next/
+
+# builds & artifacts
+lung_cancer_dataset.csv
+__pycache__/

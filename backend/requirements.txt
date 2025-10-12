@@ -1,0 +1,13 @@
+# Core scientific stack
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# API (FastAPI + Uvicorn server)
+fastapi==0.115.2
+uvicorn[standard]==0.30.6
+xgboost>=2.0,<3
+
+# Optional (CORS handling is part of fastapi, pulled via starlette)
+python-multipart==0.0.9   # if you later add file uploads
