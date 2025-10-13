@@ -31,3 +31,6 @@ Run both backend and frontend locally using Docker Compose:
 docker-compose up --build
 ```
 
+* Backend: [http://localhost:8000](http://localhost:8000)
+* Frontend: [http://localhost:3000](http://localhost:3000)
+
