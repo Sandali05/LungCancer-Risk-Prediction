@@ -34,3 +34,10 @@ docker-compose up --build
 * Backend: [http://localhost:8000](http://localhost:8000)
 * Frontend: [http://localhost:3000](http://localhost:3000)
 
+> ⚠️ Note: The Dockerfiles accept an `APP_DIR` argument for flexible build contexts. Docker Compose sets this automatically to the repository root.
+
+---
+
+## 💡 How to Use
+
+
