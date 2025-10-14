@@ -43,4 +43,5 @@ docker-compose up --build
 1. Open the frontend in your browser: [http://localhost:3000](http://localhost:3000)
 2. Fill in the patient data for the features listed above.
 3. Click **Predict** to see the lung cancer risk.
+4. Get instant feedback with clear risk indications.
 
